@@ -7,11 +7,11 @@
 <img  width="200" height="200"  src="https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg">
 
 
-<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/1024px-AWS_Simple_Icons_AWS_Cloud.svg.png">
+<img  width="200" height="200"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/1024px-AWS_Simple_Icons_AWS_Cloud.svg.png">
 
-<img src="https://miro.medium.com/max/720/0*uGnkedWzlM-J1bYC">
+<img  width="200" height="200"  src="https://miro.medium.com/max/720/0*uGnkedWzlM-J1bYC">
 
-<img  src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png">
+<img  width="200" height="200"  src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png">
 
 
 
