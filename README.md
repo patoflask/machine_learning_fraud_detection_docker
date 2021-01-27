@@ -74,7 +74,7 @@ The implementation of the  machine leanning model is well explained on this [lin
 Let's start by creating a directory for the project . The directory is going to be call projet,inside are  the folder  app ,train and test which are repectively  the flask app directory,the training and testing directories.
 ***
 
-<img align="left" width="200" height="200" src="https://images-pup-pat.s3.amazonaws.com/ProjectStructure.png">
+<img  align="left" src="https://images-pup-pat.s3.amazonaws.com/ProjectStructure.png">
 
 
 ## 1.2 Training of the model <a name ="mt"></a>
@@ -538,18 +538,18 @@ With an image already created, you can now run the container version of the appl
 By running the command **docker ps** ,we can see the running container, in our case we have only one running container
 
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/dockercontainer.png">
+<img align="left"  src="https://images-pup-pat.s3.amazonaws.com/dockercontainer.png">
 
 
 ## 2.4 Tesing the application locally <a name="testlo"></a>
 
 Now let test the application locally before deploying in production
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/testlocal.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/testlocal.png">
 
 
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/localtestResult.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/localtestResult.png">
 
 
 The previous results show that the application is running correctly locally.In the next section we are going to show how to deploy in production.
@@ -618,17 +618,17 @@ The previous steps being donne ,let connect to the ec2 instante from the termina
 
 ## Copy the compressed imge from local to the server.
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/copy-zip-toec2.png">
+<img align="left" src="https://images-pup-pat.s3.amazonaws.com/copy-zip-toec2.png">
 
 ## Unzip and load the image
 
 Let unzip and load the docker image
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/unzipdocker.png">
+<img align="left" src="https://images-pup-pat.s3.amazonaws.com/unzipdocker.png">
 
 ## View docker container logs
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/dockerLogs.png">
+<img align="left" src="https://images-pup-pat.s3.amazonaws.com/dockerLogs.png">
 
 
 ## 3.3 Test the running containter <a name ="testsever"></a>
@@ -646,9 +646,9 @@ print(resp.text)
 
 Following is the obtained result, which is the expected one
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/testlocal.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/testlocal.png">
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/localtestResult.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/localtestResult.png">
 
 
 # 5 Future works <a name="futwork"></a>
