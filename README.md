@@ -56,7 +56,7 @@ In the previous publication [***Can machine learning help bank predict fraud?***
 
 ## 1. Machine Learning Rest API <a name ="mmrapi"></a> 
 
-<img width="460" height="300" src="https://www.redhat.com/cms/managed-files/microservices-1680.png">
+<img  src="https://www.redhat.com/cms/managed-files/microservices-1680.png">
 
 
 ***
@@ -74,7 +74,7 @@ The implementation of the  machine leanning model is well explained on this [lin
 Let's start by creating a directory for the project . The directory is going to be call projet,inside are  the folder  app ,train and test which are repectively  the flask app directory,the training and testing directories.
 ***
 
-<img  align="left" src="https://images-pup-pat.s3.amazonaws.com/ProjectStructure.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/ProjectStructure.png">
 
 
 ## 1.2 Training of the model <a name ="mt"></a>
@@ -522,7 +522,7 @@ Let  run  the following comands in the shell
 
 Image being built,  we can run **docker images** in the shell to obatain the following output:
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/dockerImages.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/dockerImages.png">
 
 ***
 Here we can clearly see an image which was created only **20** seconds ago.This image is updated by rebuilding it every time a change is made to the docker file
@@ -538,7 +538,7 @@ With an image already created, you can now run the container version of the appl
 By running the command **docker ps** ,we can see the running container, in our case we have only one running container
 
 
-<img align="left"  src="https://images-pup-pat.s3.amazonaws.com/dockercontainer.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/dockercontainer.png">
 
 
 ## 2.4 Tesing the application locally <a name="testlo"></a>
@@ -575,38 +575,36 @@ With the image commpressed to  **fraudim.tar.gz.** We are goin to create the **E
 Supposing you already have an AWS account,let connnect to the console to create the EC2 instance [**AWS CONSOLE**](https://aws.amazon.com/fr/console/) with the credentials provided during the account creation,we can also choose the appropriate language such as to have and interface in our local language.
 
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/interfaceAWS.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/interfaceAWS.png">
 
 
 
 Once connected to the console let  launch an ec2 instance
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/launchec2.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/launchec2.png">
 
 
 
 Let choose the base image,for this tutorial we will be using a **ubuntu 20.04 ec2** instannce
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/imec2.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/imec2.png">
 
 With the instance type choosen we can then choose the instance type which depends on the compute capacity needed for our application. For this tuttorial we choose the t2.micro which is free for the first time the account is created(AWS charge on what you use):
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/instannceType.png">
-
-
+<img src="https://images-pup-pat.s3.amazonaws.com/instannceType.png">
 
 Proceed with the default settings ,but rememenber to set the secutity group as the one in the following image.
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/SecurityGroup.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/SecurityGroup.png">
 
 In the key pair section create or select  an existing key pair.Download and save in a save location(it is downloaded once ones).
 In the directorory where the private keypair is saved,make the following change to the file in other to allow connecting to the **ec2 instance**.
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/chmod.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/chmod.png">
 
 ## Connect and install a docker in the instance we just created
 follwing is the where we get the command necessary to connect to the ec2 instance,vis ssh,here we suupose you are using linux oparating system the procedure for other operating systemes is also explained.
 
-<img align="left" width="500" height="500" src="https://images-pup-pat.s3.amazonaws.com/connect_to_ec2.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/connect_to_ec2.png">
 
 ***
 The previous steps being donne ,let connect to the ec2 instante from the terminal and run the following commands.
@@ -618,13 +616,13 @@ The previous steps being donne ,let connect to the ec2 instante from the termina
 
 ## Copy the compressed imge from local to the server.
 
-<img align="left" src="https://images-pup-pat.s3.amazonaws.com/copy-zip-toec2.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/copy-zip-toec2.png">
 
 ## Unzip and load the image
 
 Let unzip and load the docker image
 
-<img align="left" src="https://images-pup-pat.s3.amazonaws.com/unzipdocker.png">
+<img src="https://images-pup-pat.s3.amazonaws.com/unzipdocker.png">
 
 ## View docker container logs
 
