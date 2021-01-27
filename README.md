@@ -50,9 +50,9 @@
 In the previous publication [***Can machine learning help bank predict fraud?***](https://www.ingedamining.com/can-machine-learning-help-banks-solve-fraud-detection-problems/) ,I showed how to develop a machine learning model. In this presentation we will see how to deploy it in production, in this case on an ubuntu server ***( EC2)*** provided by  ***AWS***(AMAZON WEB SERVICE) using docker . The creation and the deployment process of a docker image will be part of this tutorial.
 ***
 ***NB***:
- * 1.The deployment is done with minimum security.In real life ,security needs to be improved before deploying in production.
+ *  The deployment is done with minimum security.In real life ,security needs to be improved before deploying in production.
  
- * 2. complete code and the data set of this tutorial can be found in the github [***https://github.com/patoflask/machine_learning_fraud_detection_docker***](https://github.com/patoflask/machine_learning_fraud_detection_docker)
+ * The complete code and the data set of this tutorial can be found on the  following github link [***https://github.com/patoflask/machine_learning_fraud_detection_docker***](https://github.com/patoflask/machine_learning_fraud_detection_docker)
 
 ## 1. Machine Learning Rest API <a name ="mmrapi"></a> 
 
