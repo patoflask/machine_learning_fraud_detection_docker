@@ -626,7 +626,7 @@ Let unzip and load the docker image
 
 ## View docker container logs
 
-<img align="left" src="https://images-pup-pat.s3.amazonaws.com/dockerLogs.png">
+<img  src="https://images-pup-pat.s3.amazonaws.com/dockerLogs.png">
 
 
 ## 3.3 Test the running containter <a name ="testsever"></a>
